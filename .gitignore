@@ -1,0 +1,79 @@
+# CMake build directories
+**/cmake-build-*/
+**/build/
+**/out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+*.ninja
+build.ninja
+rules.ninja
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# CLion specific
+cmake-build-*/
+.cmake/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+Testing/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
